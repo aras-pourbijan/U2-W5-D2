@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap" rel="stylesheet" />
+
+        <link rel="stylesheet" href="./css/style.css" />
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="container">
+            <div class="monthly-budget">
+                <div>
+                    <h1>Monthly Budget For Hobby</h1>
+                    <h2>You can spend <span id="initBudget"></span> euros in month</h2>
+                    <h3>Lets spend it!</h3>
+                    <input id="totalScreen" type="text" />
+                </div>
+                <div id="list-items">
+                    <div>
+                        <button class="item" onclick="addCost(150)">travel</button>
+                        <p>150Euros</p>
+                    </div>
+                    <div>
+                        <button class="item" onclick="addCost(80)">restaurant</button>
+                        <p>80Euros</p>
+                    </div>
+                    <div>
+                        <button class="item" onclick="addCost(50)">sport</button>
+                        <p>50Euros</p>
+                    </div>
+                    <div>
+                        <button class="item" onclick="addCost(50)">ART</button>
+                        <p>50Euros</p>
+                    </div>
+                    <div>
+                        <button class="item" onclick="addCost(100)">shopping</button>
+                        <p>100Euros</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="./js/script.js"></script>
+    </body>
+</html>
